@@ -25,7 +25,7 @@ const Item = ({title, to, icon, selected, setSelected}) => {
   return (
     <MenuItem
       active={selected === title}
-      style={{ color: colors.grey[430] }}
+      style={{ color: colors.grey[400] }}
       onClick={() => setSelected(title)}
       icon={icon}
       routerLink={<Link to={to}/>}
@@ -104,7 +104,7 @@ const Sidebar = () => {
               <Box textAlign="center">
 
                 <Typography variant='h2' color={colors.grey[100]} fontWeight="bold" sx={{ m: "10px 0 0 0" }}>
-                  Ed Roh
+                  Warren Jonas
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   VP Fancy Admin
